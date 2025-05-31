@@ -88,6 +88,8 @@ namespace CpParcial2miah
             txtSinopsis.Text = serie.Sinopsis; // asigna la sinopsis de la serie al textbox
             txtDirector.Text = serie.Director; // asigna el director de la serie al textbox
             nudEpisodio.Text = serie.Episodio.ToString(); // asigna el episodio de la serie al nud
+            cbxIdiomaOriginal.Text = serie.IdiomaOriginal;
+            txtUrlPortada.Text = serie.UrlPortada;
             txtFechaEstreno.Text = serie.FechaEstreno.HasValue ? serie.FechaEstreno.Value.ToString("yyyy-MM-dd") : "";
 
             txtTitulo.Focus(); // enfoca el textbox de titulo
@@ -106,6 +108,7 @@ namespace CpParcial2miah
             erpSinopsis.SetError(txtSinopsis, ""); // limpia el error del textbox de sinopsis
             erpDirector.SetError(txtDirector, ""); // limpia el error del textbox de director
             erpEpisodio.SetError(nudEpisodio, ""); // limpia el error del nud de episodio
+            erpIdioma.SetError(cbxIdiomaOriginal, "");
             erpFechaEstreno.SetError(txtFechaEstreno, ""); // limpia el error del textbox de fecha estreno
 
             // en los if vota v o f porque si o se llena el campo de texto entra al if y cambia el esValido a false
@@ -130,6 +133,12 @@ namespace CpParcial2miah
             if (nudEpisodio.Value <= 0)
             {
                 erpEpisodio.SetError(nudEpisodio, "El episodio debe ser mayor a 0"); // muestra el error en el nud de episodio
+                esValido = false; // cambia el esValido a false
+            }
+
+            if (string.IsNullOrEmpty(cbxIdiomaOriginal.Text.Trim()))
+            {
+                erpIdioma.SetError(cbxIdiomaOriginal, "El idioma es obligatoria"); // muestra el error en el textbox de sinopsis
                 esValido = false; // cambia el esValido a false
             }
 
@@ -161,6 +170,7 @@ namespace CpParcial2miah
                 serie.Sinopsis = txtSinopsis.Text.Trim(); // asigna la sinopsis del textbox al objeto serie
                 serie.Director = txtDirector.Text.Trim(); // asigna el director del textbox al objeto serie
                 serie.Episodio = Convert.ToInt32(nudEpisodio.Value); // asigna el episodio del nud al objeto serie
+                serie.IdiomaOriginal = cbxIdiomaOriginal.Text.Trim();
                 serie.FechaEstreno = string.IsNullOrEmpty(txtFechaEstreno.Text.Trim()) ? (DateTime?)null : Convert.ToDateTime(txtFechaEstreno.Text.Trim()); // asigna la fecha de estreno del textbox al objeto serie, si esta vacio asigna null
                 serie.Estado = 1; // asigna el estado de la serie a 1 (activo)
                 serie.usuarioRegistro = "Cristian"; // asigna el usuario de creacion a admin, esto se puede cambiar por el usuario que este logueado
@@ -186,6 +196,8 @@ namespace CpParcial2miah
                         serieExistente.Sinopsis = serie.Sinopsis;
                         serieExistente.Director = serie.Director;
                         serieExistente.Episodio = serie.Episodio;
+                        serieExistente.IdiomaOriginal = serie.IdiomaOriginal;
+                        serieExistente.UrlPortada = serie.UrlPortada;
                         serieExistente.FechaEstreno = serie.FechaEstreno;
                         serieExistente.Estado = 1; // Mantener el estado activo
                         serieExistente.usuarioRegistro = "Mery"; // asigna el usuario de modificacion a admin, esto se puede cambiar por el usuario que este logueado

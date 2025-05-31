@@ -9,6 +9,8 @@
     <Property Name="Sinopsis" Type="varchar" MaxLength="5000" Nullable="false" />
     <Property Name="Director" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="Episodio" Type="int" Nullable="false" />
+    <Property Name="IdiomaOriginal" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="UrlPortada" Type="varchar" MaxLength="200" Nullable="false" />
     <Property Name="FechaEstreno" Type="date" />
     <Property Name="Estado" Type="smallint" Nullable="false" />
     <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" Nullable="false" />

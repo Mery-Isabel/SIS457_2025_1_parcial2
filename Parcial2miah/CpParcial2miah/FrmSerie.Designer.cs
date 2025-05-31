@@ -30,6 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             this.gbxDatos = new System.Windows.Forms.GroupBox();
+            this.cbxIdiomaOriginal = new System.Windows.Forms.ComboBox();
+            this.lblIdiomaOriginal = new System.Windows.Forms.Label();
             this.txtFechaEstreno = new System.Windows.Forms.TextBox();
             this.lblEpisodio = new System.Windows.Forms.Label();
             this.txtDirector = new System.Windows.Forms.TextBox();
@@ -58,6 +60,9 @@
             this.erpDirector = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpEpisodio = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpFechaEstreno = new System.Windows.Forms.ErrorProvider(this.components);
+            this.erpIdioma = new System.Windows.Forms.ErrorProvider(this.components);
+            this.txtUrlPortada = new System.Windows.Forms.TextBox();
+            this.lblUrlPortada = new System.Windows.Forms.Label();
             this.gbxDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudEpisodio)).BeginInit();
             this.pnlAcciones.SuspendLayout();
@@ -68,10 +73,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.erpDirector)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpEpisodio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpFechaEstreno)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpIdioma)).BeginInit();
             this.SuspendLayout();
             // 
             // gbxDatos
             // 
+            this.gbxDatos.Controls.Add(this.txtUrlPortada);
+            this.gbxDatos.Controls.Add(this.lblUrlPortada);
+            this.gbxDatos.Controls.Add(this.cbxIdiomaOriginal);
+            this.gbxDatos.Controls.Add(this.lblIdiomaOriginal);
             this.gbxDatos.Controls.Add(this.txtFechaEstreno);
             this.gbxDatos.Controls.Add(this.lblEpisodio);
             this.gbxDatos.Controls.Add(this.txtDirector);
@@ -93,9 +103,30 @@
             this.gbxDatos.TabStop = false;
             this.gbxDatos.Text = "Datos";
             // 
+            // cbxIdiomaOriginal
+            // 
+            this.cbxIdiomaOriginal.FormattingEnabled = true;
+            this.cbxIdiomaOriginal.Items.AddRange(new object[] {
+            "English",
+            "Español",
+            "Latino"});
+            this.cbxIdiomaOriginal.Location = new System.Drawing.Point(616, 71);
+            this.cbxIdiomaOriginal.Name = "cbxIdiomaOriginal";
+            this.cbxIdiomaOriginal.Size = new System.Drawing.Size(121, 28);
+            this.cbxIdiomaOriginal.TabIndex = 17;
+            // 
+            // lblIdiomaOriginal
+            // 
+            this.lblIdiomaOriginal.AutoSize = true;
+            this.lblIdiomaOriginal.Location = new System.Drawing.Point(471, 79);
+            this.lblIdiomaOriginal.Name = "lblIdiomaOriginal";
+            this.lblIdiomaOriginal.Size = new System.Drawing.Size(126, 20);
+            this.lblIdiomaOriginal.TabIndex = 16;
+            this.lblIdiomaOriginal.Text = "Idioma Original:";
+            // 
             // txtFechaEstreno
             // 
-            this.txtFechaEstreno.Location = new System.Drawing.Point(616, 59);
+            this.txtFechaEstreno.Location = new System.Drawing.Point(616, 119);
             this.txtFechaEstreno.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtFechaEstreno.MaxLength = 20;
             this.txtFechaEstreno.Name = "txtFechaEstreno";
@@ -132,7 +163,7 @@
             // btnCancelar
             // 
             this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancelar.Location = new System.Drawing.Point(730, 109);
+            this.btnCancelar.Location = new System.Drawing.Point(752, 189);
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Padding = new System.Windows.Forms.Padding(6, 0, 6, 0);
@@ -146,7 +177,7 @@
             // btnGuardar
             // 
             this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuardar.Location = new System.Drawing.Point(600, 109);
+            this.btnGuardar.Location = new System.Drawing.Point(622, 189);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Padding = new System.Windows.Forms.Padding(6, 0, 6, 0);
@@ -173,7 +204,7 @@
             // lblFechaEstreno
             // 
             this.lblFechaEstreno.AutoSize = true;
-            this.lblFechaEstreno.Location = new System.Drawing.Point(486, 62);
+            this.lblFechaEstreno.Location = new System.Drawing.Point(471, 122);
             this.lblFechaEstreno.Name = "lblFechaEstreno";
             this.lblFechaEstreno.Size = new System.Drawing.Size(128, 20);
             this.lblFechaEstreno.TabIndex = 7;
@@ -371,6 +402,28 @@
             // 
             this.erpFechaEstreno.ContainerControl = this;
             // 
+            // erpIdioma
+            // 
+            this.erpIdioma.ContainerControl = this;
+            // 
+            // txtUrlPortada
+            // 
+            this.txtUrlPortada.Location = new System.Drawing.Point(146, 142);
+            this.txtUrlPortada.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtUrlPortada.MaxLength = 20;
+            this.txtUrlPortada.Name = "txtUrlPortada";
+            this.txtUrlPortada.Size = new System.Drawing.Size(156, 26);
+            this.txtUrlPortada.TabIndex = 19;
+            // 
+            // lblUrlPortada
+            // 
+            this.lblUrlPortada.AutoSize = true;
+            this.lblUrlPortada.Location = new System.Drawing.Point(75, 146);
+            this.lblUrlPortada.Name = "lblUrlPortada";
+            this.lblUrlPortada.Size = new System.Drawing.Size(104, 20);
+            this.lblUrlPortada.TabIndex = 18;
+            this.lblUrlPortada.Text = "Url Portada: ";
+            // 
             // FrmSerie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -402,6 +455,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.erpDirector)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpEpisodio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpFechaEstreno)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpIdioma)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -438,5 +492,10 @@
         private System.Windows.Forms.ErrorProvider erpDirector;
         private System.Windows.Forms.ErrorProvider erpEpisodio;
         private System.Windows.Forms.ErrorProvider erpFechaEstreno;
+        private System.Windows.Forms.Label lblIdiomaOriginal;
+        private System.Windows.Forms.ComboBox cbxIdiomaOriginal;
+        private System.Windows.Forms.ErrorProvider erpIdioma;
+        private System.Windows.Forms.TextBox txtUrlPortada;
+        private System.Windows.Forms.Label lblUrlPortada;
     }
 }

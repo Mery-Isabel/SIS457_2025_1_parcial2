@@ -9,6 +9,8 @@
           <ScalarProperty Name="Sinopsis" ColumnName="Sinopsis" />
           <ScalarProperty Name="Director" ColumnName="Director" />
           <ScalarProperty Name="Episodio" ColumnName="Episodio" />
+          <ScalarProperty Name="IdiomaOriginal" ColumnName="IdiomaOriginal" />
+          <ScalarProperty Name="UrlPortada" ColumnName="UrlPortada" />
           <ScalarProperty Name="FechaEstreno" ColumnName="FechaEstreno" />
           <ScalarProperty Name="Estado" ColumnName="Estado" />
           <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
@@ -24,6 +26,8 @@
           <ScalarProperty Name="Sinopsis" ColumnName="Sinopsis" />
           <ScalarProperty Name="Director" ColumnName="Director" />
           <ScalarProperty Name="Episodio" ColumnName="Episodio" />
+          <ScalarProperty Name="IdiomaOriginal" ColumnName="IdiomaOriginal" />
+          <ScalarProperty Name="UrlPortada" ColumnName="UrlPortada" />
           <ScalarProperty Name="FechaEstreno" ColumnName="FechaEstreno" />
           <ScalarProperty Name="Estado" ColumnName="Estado" />
           <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />

@@ -19,6 +19,8 @@ namespace CadParcial2miah
         public string Sinopsis { get; set; }
         public string Director { get; set; }
         public int Episodio { get; set; }
+        public string IdiomaOriginal { get; set; }
+        public string UrlPortada { get; set; }
         public Nullable<System.DateTime> FechaEstreno { get; set; }
         public short Estado { get; set; }
         public string usuarioRegistro { get; set; }

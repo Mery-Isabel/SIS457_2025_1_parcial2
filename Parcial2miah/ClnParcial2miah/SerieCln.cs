@@ -41,6 +41,7 @@ namespace ClnParcial2miah
                     existente.Sinopsis = serie.Sinopsis;
                     existente.Director = serie.Director;
                     existente.Episodio = serie.Episodio;
+                    existente.IdiomaOriginal = serie.IdiomaOriginal;
                     existente.FechaEstreno = serie.FechaEstreno;
                     existente.Estado = serie.Estado;
                 }

@@ -10,17 +10,20 @@
 namespace CadParcial2miah
 {
     using System;
-    
+
     public partial class paSerieListar_Result
     {
         public int Id { get; set; }
-        public string Titulo { get; set; }
-        public string Sinopsis { get; set; }
-        public string Director { get; set; }
+        public string Titulo { get; set; } = string.Empty;
+        public string Sinopsis { get; set; } = string.Empty;
+        public string Director { get; set; } = string.Empty;
         public int Episodio { get; set; }
-        public Nullable<System.DateTime> FechaEstreno { get; set; }
+        public string IdiomaOriginal { get; set; } = string.Empty;
+        public string UrlPortada { get; set; } = string.Empty;
+        public System.DateTime FechaEstreno { get; set; }
         public short Estado { get; set; }
-        public string usuarioRegistro { get; set; }
+        public string usuarioRegistro { get; set; } = string.Empty;
         public System.DateTime fechaRegistro { get; set; }
     }
+
 }

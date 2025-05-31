@@ -14,6 +14,8 @@
           <Property Name="Sinopsis" Type="varchar" MaxLength="5000" Nullable="false" />
           <Property Name="Director" Type="varchar" MaxLength="100" Nullable="false" />
           <Property Name="Episodio" Type="int" Nullable="false" />
+          <Property Name="IdiomaOriginal" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="UrlPortada" Type="varchar" MaxLength="200" Nullable="false" />
           <Property Name="FechaEstreno" Type="date" />
           <Property Name="Estado" Type="smallint" Nullable="false" />
           <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" Nullable="false" />
@@ -39,6 +41,8 @@
           <Property Name="Sinopsis" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Director" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Episodio" Type="Int32" Nullable="false" />
+          <Property Name="IdiomaOriginal" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="UrlPortada" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="FechaEstreno" Type="DateTime" Precision="0" />
           <Property Name="Estado" Type="Int16" Nullable="false" />
           <Property Name="usuarioRegistro" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
@@ -56,6 +60,8 @@
           <Property Type="String" Name="Sinopsis" Nullable="false" MaxLength="5000" />
           <Property Type="String" Name="Director" Nullable="false" MaxLength="100" />
           <Property Type="Int32" Name="Episodio" Nullable="false" />
+          <Property Type="String" Name="IdiomaOriginal" Nullable="false" MaxLength="15" />
+          <Property Type="String" Name="UrlPortada" Nullable="false" MaxLength="200" />
           <Property Type="DateTime" Name="FechaEstreno" Nullable="true" />
           <Property Type="Int16" Name="Estado" Nullable="false" />
           <Property Type="String" Name="usuarioRegistro" Nullable="false" MaxLength="50" />
@@ -75,6 +81,8 @@
                 <ScalarProperty Name="Sinopsis" ColumnName="Sinopsis" />
                 <ScalarProperty Name="Director" ColumnName="Director" />
                 <ScalarProperty Name="Episodio" ColumnName="Episodio" />
+                <ScalarProperty Name="IdiomaOriginal" ColumnName="IdiomaOriginal" />
+                <ScalarProperty Name="UrlPortada" ColumnName="UrlPortada" />
                 <ScalarProperty Name="FechaEstreno" ColumnName="FechaEstreno" />
                 <ScalarProperty Name="Estado" ColumnName="Estado" />
                 <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
@@ -90,6 +98,8 @@
                 <ScalarProperty Name="Sinopsis" ColumnName="Sinopsis" />
                 <ScalarProperty Name="Director" ColumnName="Director" />
                 <ScalarProperty Name="Episodio" ColumnName="Episodio" />
+                <ScalarProperty Name="IdiomaOriginal" ColumnName="IdiomaOriginal" />
+                <ScalarProperty Name="UrlPortada" ColumnName="UrlPortada" />
                 <ScalarProperty Name="FechaEstreno" ColumnName="FechaEstreno" />
                 <ScalarProperty Name="Estado" ColumnName="Estado" />
                 <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
