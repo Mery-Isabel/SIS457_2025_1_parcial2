@@ -1,0 +1,15 @@
+F:\ARCHIVOS ANTERIORE\parcial2_sis457_miah\Parcial2miah\ClnParcial2miah\bin\Debug\ClnParcial2miah.dll.config
+F:\ARCHIVOS ANTERIORE\parcial2_sis457_miah\Parcial2miah\ClnParcial2miah\bin\Debug\ClnParcial2miah.dll
+F:\ARCHIVOS ANTERIORE\parcial2_sis457_miah\Parcial2miah\ClnParcial2miah\bin\Debug\ClnParcial2miah.pdb
+F:\ARCHIVOS ANTERIORE\parcial2_sis457_miah\Parcial2miah\ClnParcial2miah\bin\Debug\CadParcial2miah.dll
+F:\ARCHIVOS ANTERIORE\parcial2_sis457_miah\Parcial2miah\ClnParcial2miah\bin\Debug\EntityFramework.dll
+F:\ARCHIVOS ANTERIORE\parcial2_sis457_miah\Parcial2miah\ClnParcial2miah\bin\Debug\EntityFramework.SqlServer.dll
+F:\ARCHIVOS ANTERIORE\parcial2_sis457_miah\Parcial2miah\ClnParcial2miah\bin\Debug\CadParcial2miah.pdb
+F:\ARCHIVOS ANTERIORE\parcial2_sis457_miah\Parcial2miah\ClnParcial2miah\bin\Debug\CadParcial2miah.dll.config
+F:\ARCHIVOS ANTERIORE\parcial2_sis457_miah\Parcial2miah\ClnParcial2miah\bin\Debug\EntityFramework.xml
+F:\ARCHIVOS ANTERIORE\parcial2_sis457_miah\Parcial2miah\ClnParcial2miah\bin\Debug\EntityFramework.SqlServer.xml
+F:\ARCHIVOS ANTERIORE\parcial2_sis457_miah\Parcial2miah\ClnParcial2miah\obj\Debug\ClnParcial2miah.csproj.AssemblyReference.cache
+F:\ARCHIVOS ANTERIORE\parcial2_sis457_miah\Parcial2miah\ClnParcial2miah\obj\Debug\ClnParcial2miah.csproj.CoreCompileInputs.cache
+F:\ARCHIVOS ANTERIORE\parcial2_sis457_miah\Parcial2miah\ClnParcial2miah\obj\Debug\ClnParci.0242E4BF.Up2Date
+F:\ARCHIVOS ANTERIORE\parcial2_sis457_miah\Parcial2miah\ClnParcial2miah\obj\Debug\ClnParcial2miah.dll
+F:\ARCHIVOS ANTERIORE\parcial2_sis457_miah\Parcial2miah\ClnParcial2miah\obj\Debug\ClnParcial2miah.pdb

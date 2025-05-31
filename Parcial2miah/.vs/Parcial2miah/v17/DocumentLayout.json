@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ARCHIVOS ANTERIORE\\parcial2_sis457_miah\\Parcial2miah\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01C7AE98-5A02-4237-BDC7-D8CEE5E48CCA}|CpParcial2miah\\CpParcial2miah.csproj|f:\\archivos anteriore\\parcial2_sis457_miah\\parcial2miah\\cpparcial2miah\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C7AE98-5A02-4237-BDC7-D8CEE5E48CCA}|CpParcial2miah\\CpParcial2miah.csproj|solutionrelative:cpparcial2miah\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C7AE98-5A02-4237-BDC7-D8CEE5E48CCA}|CpParcial2miah\\CpParcial2miah.csproj|f:\\archivos anteriore\\parcial2_sis457_miah\\parcial2miah\\cpparcial2miah\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{01C7AE98-5A02-4237-BDC7-D8CEE5E48CCA}|CpParcial2miah\\CpParcial2miah.csproj|solutionrelative:cpparcial2miah\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE186A1E-9282-466D-93D9-4084B7CF8CEC}|CadParcial2miah\\CadParcial2miah.csproj|f:\\archivos anteriore\\parcial2_sis457_miah\\parcial2miah\\cadparcial2miah\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{DE186A1E-9282-466D-93D9-4084B7CF8CEC}|CadParcial2miah\\CadParcial2miah.csproj|solutionrelative:cadparcial2miah\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{249174F5-3701-40EE-81A4-7CA9B9412D92}|ClnParcial2miah\\ClnParcial2miah.csproj|f:\\archivos anteriore\\parcial2_sis457_miah\\parcial2miah\\clnparcial2miah\\seriecln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{249174F5-3701-40EE-81A4-7CA9B9412D92}|ClnParcial2miah\\ClnParcial2miah.csproj|solutionrelative:clnparcial2miah\\seriecln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C7AE98-5A02-4237-BDC7-D8CEE5E48CCA}|CpParcial2miah\\CpParcial2miah.csproj|f:\\archivos anteriore\\parcial2_sis457_miah\\parcial2miah\\cpparcial2miah\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C7AE98-5A02-4237-BDC7-D8CEE5E48CCA}|CpParcial2miah\\CpParcial2miah.csproj|solutionrelative:cpparcial2miah\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C7AE98-5A02-4237-BDC7-D8CEE5E48CCA}|CpParcial2miah\\CpParcial2miah.csproj|f:\\archivos anteriore\\parcial2_sis457_miah\\parcial2miah\\cpparcial2miah\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{01C7AE98-5A02-4237-BDC7-D8CEE5E48CCA}|CpParcial2miah\\CpParcial2miah.csproj|solutionrelative:cpparcial2miah\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE186A1E-9282-466D-93D9-4084B7CF8CEC}|CadParcial2miah\\CadParcial2miah.csproj|f:\\archivos anteriore\\parcial2_sis457_miah\\parcial2miah\\cadparcial2miah\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE186A1E-9282-466D-93D9-4084B7CF8CEC}|CadParcial2miah\\CadParcial2miah.csproj|solutionrelative:cadparcial2miah\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\ARCHIVOS ANTERIORE\\parcial2_sis457_miah\\Parcial2miah\\CpParcial2miah\\Program.cs",
+              "RelativeDocumentMoniker": "CpParcial2miah\\Program.cs",
+              "ToolTip": "F:\\ARCHIVOS ANTERIORE\\parcial2_sis457_miah\\Parcial2miah\\CpParcial2miah\\Program.cs",
+              "RelativeToolTip": "CpParcial2miah\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:10:08.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmSerie.cs",
+              "DocumentMoniker": "F:\\ARCHIVOS ANTERIORE\\parcial2_sis457_miah\\Parcial2miah\\CpParcial2miah\\FrmSerie.cs",
+              "RelativeDocumentMoniker": "CpParcial2miah\\FrmSerie.cs",
+              "ToolTip": "F:\\ARCHIVOS ANTERIORE\\parcial2_sis457_miah\\Parcial2miah\\CpParcial2miah\\FrmSerie.cs",
+              "RelativeToolTip": "CpParcial2miah\\FrmSerie.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAIAwwF0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T02:43:23.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmSerie.cs [Dise\u00F1o]",
+              "DocumentMoniker": "F:\\ARCHIVOS ANTERIORE\\parcial2_sis457_miah\\Parcial2miah\\CpParcial2miah\\FrmSerie.cs",
+              "RelativeDocumentMoniker": "CpParcial2miah\\FrmSerie.cs",
+              "ToolTip": "F:\\ARCHIVOS ANTERIORE\\parcial2_sis457_miah\\Parcial2miah\\CpParcial2miah\\FrmSerie.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CpParcial2miah\\FrmSerie.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T02:30:26.539Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.config",
+              "DocumentMoniker": "F:\\ARCHIVOS ANTERIORE\\parcial2_sis457_miah\\Parcial2miah\\CpParcial2miah\\App.config",
+              "RelativeDocumentMoniker": "CpParcial2miah\\App.config",
+              "ToolTip": "F:\\ARCHIVOS ANTERIORE\\parcial2_sis457_miah\\Parcial2miah\\CpParcial2miah\\App.config",
+              "RelativeToolTip": "CpParcial2miah\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-31T02:28:35.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SerieCln.cs",
+              "DocumentMoniker": "F:\\ARCHIVOS ANTERIORE\\parcial2_sis457_miah\\Parcial2miah\\ClnParcial2miah\\SerieCln.cs",
+              "RelativeDocumentMoniker": "ClnParcial2miah\\SerieCln.cs",
+              "ToolTip": "F:\\ARCHIVOS ANTERIORE\\parcial2_sis457_miah\\Parcial2miah\\ClnParcial2miah\\SerieCln.cs",
+              "RelativeToolTip": "ClnParcial2miah\\SerieCln.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T02:18:42.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Modelo.edmx [Diagram1]",
+              "DocumentMoniker": "F:\\ARCHIVOS ANTERIORE\\parcial2_sis457_miah\\Parcial2miah\\CadParcial2miah\\Modelo.edmx",
+              "RelativeDocumentMoniker": "CadParcial2miah\\Modelo.edmx",
+              "ToolTip": "F:\\ARCHIVOS ANTERIORE\\parcial2_sis457_miah\\Parcial2miah\\CadParcial2miah\\Modelo.edmx [Diagram1]",
+              "RelativeToolTip": "CadParcial2miah\\Modelo.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-05-31T02:13:31.904Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "F:\\ARCHIVOS ANTERIORE\\parcial2_sis457_miah\\Parcial2miah\\CadParcial2miah\\Class1.cs",
+              "RelativeDocumentMoniker": "CadParcial2miah\\Class1.cs",
+              "ToolTip": "F:\\ARCHIVOS ANTERIORE\\parcial2_sis457_miah\\Parcial2miah\\CadParcial2miah\\Class1.cs",
+              "RelativeToolTip": "CadParcial2miah\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T02:00:50.082Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

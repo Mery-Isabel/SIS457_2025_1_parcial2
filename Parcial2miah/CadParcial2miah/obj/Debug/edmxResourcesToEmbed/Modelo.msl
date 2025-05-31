@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Parcial2miahModelStoreContainer" CdmEntityContainer="Parcial2miahEntities">
+    <EntitySetMapping Name="Serie">
+      <EntityTypeMapping TypeName="Parcial2miahModel.Serie">
+        <MappingFragment StoreEntitySet="Serie">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="Sinopsis" ColumnName="Sinopsis" />
+          <ScalarProperty Name="Director" ColumnName="Director" />
+          <ScalarProperty Name="Episodio" ColumnName="Episodio" />
+          <ScalarProperty Name="FechaEstreno" ColumnName="FechaEstreno" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="paSerieListar" FunctionName="Parcial2miahModel.Store.paSerieListar">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Parcial2miahModel.paSerieListar_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="Sinopsis" ColumnName="Sinopsis" />
+          <ScalarProperty Name="Director" ColumnName="Director" />
+          <ScalarProperty Name="Episodio" ColumnName="Episodio" />
+          <ScalarProperty Name="FechaEstreno" ColumnName="FechaEstreno" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

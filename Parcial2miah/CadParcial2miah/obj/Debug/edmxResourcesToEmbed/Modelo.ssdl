@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Parcial2miahModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Serie">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Titulo" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="Sinopsis" Type="varchar" MaxLength="5000" Nullable="false" />
+    <Property Name="Director" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Episodio" Type="int" Nullable="false" />
+    <Property Name="FechaEstreno" Type="date" />
+    <Property Name="Estado" Type="smallint" Nullable="false" />
+    <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="fechaRegistro" Type="datetime" Nullable="false" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <Function Name="paSerieListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="parametro" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="Parcial2miahModelStoreContainer">
+    <EntitySet Name="Serie" EntityType="Self.Serie" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
